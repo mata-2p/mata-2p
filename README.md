@@ -1,70 +1,75 @@
-# Hola, soy Matías Barría 👋
+Hola, soy Matías Barría 👋
 
-**Senior .NET Developer · Tech Lead** — Chile 🇨🇱 · Disponible para trabajo remoto (España / LATAM) y relocación a España
+Ingeniero de software · Fundador de ZURAI · Rancagua, Chile 🇨🇱
 
-Construyo sistemas empresariales de punta a punta con **.NET / C#**, **Blazor WebAssembly** y **Azure**, y lidero equipos de desarrollo que los llevan a producción.
+Construyo herramientas de código abierto para trabajar con agentes de programación y, desde ZURAI, software a medida con .NET, TypeScript y Azure.
 
-<p>
-  <a href="https://www.linkedin.com/in/TU-USUARIO-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="mailto:matiasjbarriah@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-</p>
+<p> <a href="https://zurai.cl"><img src="https://img.shields.io/badge/ZURAI-zurai.cl-111111?style=for-the-badge" alt="Sitio de ZURAI"></a> <a href="https://www.linkedin.com/company/zurai"><img src="https://img.shields.io/badge/LinkedIn-ZURAI-0A66C2?style=for-the-badge" alt="ZURAI en LinkedIn"></a> <a href="mailto:contacto@zurai.cl"><img src="https://img.shields.io/badge/Email-contacto%40zurai.cl-444444?style=for-the-badge" alt="Correo de contacto de ZURAI"></a> <a href="https://github.com/sponsors/mata-2p"><img src="https://img.shields.io/badge/Sponsor-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="GitHub Sponsors"></a> <a href="https://ko-fi.com/matiasjbarriah"><img src="https://img.shields.io/badge/Ko--fi-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Ko-fi"></a> </p>
+🔭 Código abierto
+Mirador
 
----
+Un dashboard web local que sigue a los agentes de programación que corren en tu máquina, carpeta por carpeta, para tener varios a la vez sin perderle el hilo a ninguno.
 
-### 🧭 Sobre mí
+Muestra qué agente te está esperando y dónde quedó cada proyecto.
+Abre varios agentes sin llenar la memoria y los trae de vuelta después de un reinicio.
+Sin telemetría ni cuentas. Funciona con Claude Code, pi, opencode o cualquier agente de terminal.
 
-- Más de 4 años como **Jefe de Desarrollo Digital** en una exportadora de fruta chilena: formé el equipo de desarrollo, definí estándares y lideré la parte técnica.
-- Me muevo entre la gestión y el código: arquitectura, revisión de código, Git flow, CI/CD y entrega continua.
-- Me interesa el software que resuelve problemas reales de operación: proveedores, productores, recepción de materiales, cumplimiento.
+TypeScript · Apache-2.0 · versión 0.2.0, con instalación de una línea en Linux
 
-### 🛠️ Stack
+<a href="https://github.com/mata-2p/mirador"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mata-2p/mirador/main/docs/img/overview-dark.png"> <img src="https://raw.githubusercontent.com/mata-2p/mirador/main/docs/img/overview.png" width="760" alt="Mirador en un workspace de demostración: el árbol de carpetas, tres terminales de agentes y el panel que muestra dónde quedó el proyecto"> </picture> </a>
+pi-context-guard
 
-![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![Blazor](https://img.shields.io/badge/Blazor_WASM-512BD4?style=flat-square&logo=blazor&logoColor=white)
-![ASP.NET Core](https://img.shields.io/badge/Minimal_APIs_·_BFF-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
-![EF Core](https://img.shields.io/badge/Entity_Framework-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![Dapper](https://img.shields.io/badge/Dapper-555555?style=flat-square)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-0078D7?style=flat-square&logo=azuredevops&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+Dos extensiones para Pi pensadas para sesiones largas de programación:
 
-### 🚀 Proyectos destacados
+context-guard compacta la sesión en un umbral que no depende del modelo, y antes le pide al modelo que guarde un resumen de la sesión en Engram.
+context-observer registra métricas de contexto y compactación, nunca el contenido, para ajustar ese umbral con datos propios.
 
-> El código de estos sistemas es privado (propiedad del empleador). Aquí describo qué hice y cómo.
+JavaScript · MIT · disponible en npm
 
-| Proyecto | Qué es | Mi rol |
-|---|---|---|
-| **Debida Diligencia** | Sistema de acreditación y due diligence de proveedores y contratistas; reemplazó una solución SaaS externa | Liderazgo técnico, arquitectura y desarrollo del MVP |
-| **Portal de Proveedores** | Portal web para la gestión de proveedores | Arquitectura, desarrollo y estándar de ramas Git del equipo |
-| **Portal de Productores** | Portal web para productores agrícolas | Liderazgo técnico y desarrollo |
-| **SISPRO** | Sistema interno de producción, con modelo de datos integrado a SAP Business Partner | Diseño del modelo de datos e integración |
-| **GesControl** | Gestión y control de recepción de materiales | Desarrollo |
+Contribuciones
 
-**Arquitectura habitual:** Blazor WebAssembly → Gateway / BFF en Minimal APIs → servicios .NET → SQL Server (EF Core + Dapper), desplegado en Azure con pipelines en Azure DevOps.
+Código en Go aceptado en gentle-ai, de la comunidad Gentleman Programming.
 
-### 📌 Ahora mismo
+🏢 ZURAI
 
-- 🔎 Buscando roles **remotos** de .NET / C# (Senior o Tech Lead)
-- 🌱 Profundizando en arquitectura de software y desarrollo asistido por IA
+ZURAI es mi empresa de software en Rancagua: tu idea, en ejecución.
 
----
+Diseña, construye y opera software a medida: sistemas de negocio, aplicaciones móviles, sitios y portales, agentes de IA y consultoría tecnológica. El compromiso es que sepas desde el inicio qué se construye, cuánto cuesta y cuándo llega.
 
-<details>
-<summary><b>🇬🇧 English version</b></summary>
+¿Tienes un proyecto? Escribe a contacto@zurai.cl o visita zurai.cl.
 
-### Hi, I'm Matías Barría 👋
+🧭 Trayectoria
+Casi 5 años en una exportadora de fruta chilena, los últimos 2 como Jefe de Desarrollo Digital: formé el equipo de desarrollo desde cero y lideré la arquitectura y la entrega de sus sistemas internos.
+Arquitectura habitual en .NET: Blazor WebAssembly → gateway / BFF en Minimal APIs → servicios .NET → SQL Server (EF Core + Dapper), en Azure con pipelines de Azure DevOps.
+IA aplicada: agentes con Semantic Kernel, extracción de documentos e integraciones con Azure OpenAI, OpenRouter y las API de Anthropic y OpenAI.
+🛠️ Stack
 
-**Senior .NET Developer · Tech Lead** — based in Chile, open to remote work (Spain / LATAM) and relocation to Spain.
+Mostrar imagen Mostrar imagen Mostrar imagen Mostrar imagen Mostrar imagen Mostrar imagen Mostrar imagen Mostrar imagen Mostrar imagen Mostrar imagen Mostrar imagen Mostrar imagen
 
-I build end-to-end business systems with **.NET / C#**, **Blazor WebAssembly** and **Azure**, and I lead the teams that ship them.
+☕ Apoya el código abierto
 
-- 4+ years as **Head of Digital Development** at a Chilean fruit exporter: built the development team from the ground up, set engineering standards and led technical delivery.
-- Comfortable on both sides: architecture, code review, Git workflows, CI/CD — and people management.
-- Highlights: a supplier & contractor due-diligence platform that replaced an external SaaS, supplier and grower portals, a production system with an SAP Business Partner data model, and a materials-reception control app.
-- Typical architecture: Blazor WASM → Minimal API gateway / BFF → .NET services → SQL Server (EF Core + Dapper), on Azure with Azure DevOps pipelines.
+Mirador y pi-context-guard son gratuitos. Si te sirven, puedes apoyarlos en GitHub Sponsors o en Ko-fi.
 
-📫 Reach me on [LinkedIn](https://www.linkedin.com/in/TU-USUARIO-LINKEDIN) or at matiasjbarriah@gmail.com
+<details> <summary><b>🇬🇧 English version</b></summary>
+Hi, I'm Matías Barría 👋
 
+Software engineer · Founder of ZURAI · Rancagua, Chile
+
+I build open-source tools for working with coding agents and, through ZURAI, custom software with .NET, TypeScript and Azure.
+
+Open source
+
+Mirador: a local web dashboard that keeps track of the coding agents running on your machine, folder by folder, so you can run several at once without losing the thread of any of them. No telemetry, no accounts. TypeScript, Apache-2.0, version 0.2.0.
+pi-context-guard: two Pi extensions for long coding sessions. One compacts the session at a model-independent threshold after asking the model to save a session summary to Engram; the other records context metrics so you can tune that threshold. JavaScript, MIT, on npm.
+Go code merged into gentle-ai.
+
+ZURAI
+
+ZURAI is my software company in Rancagua, Chile. It designs, builds and operates custom software: business systems, mobile apps, websites and portals, AI agents and technology consulting. Reach it at contacto@zurai.cl.
+
+Background
+
+Nearly 5 years at a Chilean fruit exporter, the last 2 as Head of Digital Development: built the development team from scratch and led the architecture and delivery of its internal systems.
+Typical .NET architecture: Blazor WebAssembly → Minimal API gateway / BFF → .NET services → SQL Server (EF Core + Dapper), on Azure with Azure DevOps pipelines.
+Applied AI: Semantic Kernel agents, document extraction, and integrations with Azure OpenAI, OpenRouter and the Anthropic and OpenAI APIs.
 </details>
